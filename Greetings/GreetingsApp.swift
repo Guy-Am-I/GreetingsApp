@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct GreetingsApp: App {
-    @State var language = "en"
+    @AppStorage("language") var language = "en"
     
     var body: some Scene {
         WindowGroup {
