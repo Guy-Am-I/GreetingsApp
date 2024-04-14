@@ -24,9 +24,21 @@ struct MainView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
+            VStack(alignment: .leading, spacing: 0.0) {
+                Text("Greetings")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                Text("Exploring iOS SWIFTUI")
+                    .font(.headline)
+                    .fontWeight(.thin)
+            }.padding()
+            Spacer()
             ForEach(messages) {
                 TextView(text: $0.text, color: $0.color)
             }
+            
+            Spacer()
+            Spacer()
             
         }
     }
