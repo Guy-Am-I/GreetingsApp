@@ -13,6 +13,7 @@ struct DataItemModel: Identifiable {
     let color: Color
 }
 
+/// MainView of the app, launches on statrup
 struct MainView: View {
     var body: some View {
         ZStack {
@@ -29,6 +30,8 @@ struct MainView: View {
     }
 }
 
+/// Text View which wraps text in ellipse shape and gives it a
+///  background color which changes on tap
 struct TextView: View {
     let text: String
     @State var color: Color
@@ -52,6 +55,7 @@ struct TextView: View {
     }
 }
 
+/// Title View including app name and rotating onTap icon
 struct TitleView: View {
     
     @State var isRotated = false
@@ -86,6 +90,7 @@ struct TitleView: View {
     }
 }
 
+/// Messages View including sample bank of messages with text & color
 struct MessagesView: View {
     
     let messages = [
@@ -105,6 +110,7 @@ struct MessagesView: View {
     }
 }
 
+/// Background View which contains a gradient
 struct BackgroundView: View {
     var body: some View {
         LinearGradient(colors: [.blue, Color(red: 139/255,
