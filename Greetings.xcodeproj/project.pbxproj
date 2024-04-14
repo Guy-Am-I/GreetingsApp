@@ -46,6 +46,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		780D99B42BCC61DC001BCDB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				78FB158E2BCBA452009C02EB /* MainView.swift */,
+				780D99B02BCC6075001BCDB2 /* BackgroundView.swift */,
+				780D99AE2BCC605A001BCDB2 /* MessagesView.swift */,
+				780D99AC2BCC603E001BCDB2 /* TitleView.swift */,
+				780D99AA2BCC5FFF001BCDB2 /* TextView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		780D99B52BCC61E8001BCDB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				780D99B22BCC609B001BCDB2 /* MessageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		78FB15802BCBA452009C02EB = {
 			isa = PBXGroup;
 			children = (
@@ -65,13 +85,9 @@
 		78FB158B2BCBA452009C02EB /* Greetings */ = {
 			isa = PBXGroup;
 			children = (
+				780D99B52BCC61E8001BCDB2 /* Model */,
+				780D99B42BCC61DC001BCDB2 /* Views */,
 				78FB158C2BCBA452009C02EB /* GreetingsApp.swift */,
-				78FB158E2BCBA452009C02EB /* MainView.swift */,
-				780D99B22BCC609B001BCDB2 /* MessageModel.swift */,
-				780D99B02BCC6075001BCDB2 /* BackgroundView.swift */,
-				780D99AE2BCC605A001BCDB2 /* MessagesView.swift */,
-				780D99AC2BCC603E001BCDB2 /* TitleView.swift */,
-				780D99AA2BCC5FFF001BCDB2 /* TextView.swift */,
 				78FB15902BCBA455009C02EB /* Assets.xcassets */,
 				78FB15922BCBA455009C02EB /* Preview Content */,
 				780D99A62BCC5562001BCDB2 /* GreetingsLaunchScreen.storyboard */,
