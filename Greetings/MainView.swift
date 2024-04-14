@@ -94,11 +94,11 @@ struct TitleView: View {
 struct MessagesView: View {
     
     let messages = [
-        DataItemModel(text: "Hello There", color: .green),
-        DataItemModel(text: "Welcome to Swift Programming", color: .gray),
-        DataItemModel(text: "Are you ready to", color: .yellow),
-        DataItemModel(text: "Start exploring", color: .red),
-        DataItemModel(text: "Boom!", color: .purple)
+        DataItemModel(text: String(localized: "Hello There"), color: .green),
+        DataItemModel(text: String(localized: "Welcome to Swift Programming"), color: .gray),
+        DataItemModel(text: String(localized: "Are you ready to"), color: .yellow),
+        DataItemModel(text: String(localized: "Start exploring"), color: .red),
+        DataItemModel(text: String(localized: "Boom!"), color: .purple)
     ]
     
     var body: some View {
