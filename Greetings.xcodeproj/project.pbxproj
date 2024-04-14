@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		78FB158D2BCBA452009C02EB /* GreetingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB158C2BCBA452009C02EB /* GreetingsApp.swift */; };
-		78FB158F2BCBA452009C02EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB158E2BCBA452009C02EB /* ContentView.swift */; };
+		78FB158F2BCBA452009C02EB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB158E2BCBA452009C02EB /* MainView.swift */; };
 		78FB15912BCBA455009C02EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78FB15902BCBA455009C02EB /* Assets.xcassets */; };
 		78FB15942BCBA455009C02EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78FB15932BCBA455009C02EB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		78FB15892BCBA452009C02EB /* Greetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FB158C2BCBA452009C02EB /* GreetingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsApp.swift; sourceTree = "<group>"; };
-		78FB158E2BCBA452009C02EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		78FB158E2BCBA452009C02EB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		78FB15902BCBA455009C02EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78FB15932BCBA455009C02EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				78FB158C2BCBA452009C02EB /* GreetingsApp.swift */,
-				78FB158E2BCBA452009C02EB /* ContentView.swift */,
+				78FB158E2BCBA452009C02EB /* MainView.swift */,
 				78FB15902BCBA455009C02EB /* Assets.xcassets */,
 				78FB15922BCBA455009C02EB /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78FB158F2BCBA452009C02EB /* ContentView.swift in Sources */,
+				78FB158F2BCBA452009C02EB /* MainView.swift in Sources */,
 				78FB158D2BCBA452009C02EB /* GreetingsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
