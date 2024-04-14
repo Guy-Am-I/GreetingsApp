@@ -7,16 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		780D99A72BCC5562001BCDB2 /* GreetingsLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780D99A62BCC5562001BCDB2 /* GreetingsLaunchScreen.storyboard */; };
+		780D99A92BCC5939001BCDB2 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 780D99A82BCC5939001BCDB2 /* Localizable.xcstrings */; };
+		780D99AB2BCC5FFF001BCDB2 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780D99AA2BCC5FFF001BCDB2 /* TextView.swift */; };
+		780D99AD2BCC603E001BCDB2 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780D99AC2BCC603E001BCDB2 /* TitleView.swift */; };
+		780D99AF2BCC605A001BCDB2 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780D99AE2BCC605A001BCDB2 /* MessagesView.swift */; };
+		780D99B12BCC6075001BCDB2 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780D99B02BCC6075001BCDB2 /* BackgroundView.swift */; };
+		780D99B32BCC609B001BCDB2 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780D99B22BCC609B001BCDB2 /* MessageModel.swift */; };
+		780D99B72BCC6286001BCDB2 /* LandscapeMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780D99B62BCC6286001BCDB2 /* LandscapeMainView.swift */; };
+		780D99B92BCC65C5001BCDB2 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780D99B82BCC65C5001BCDB2 /* LaunchView.swift */; };
+		780D99BB2BCC6968001BCDB2 /* LanguageOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780D99BA2BCC6968001BCDB2 /* LanguageOptionsView.swift */; };
 		78FB158D2BCBA452009C02EB /* GreetingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB158C2BCBA452009C02EB /* GreetingsApp.swift */; };
-		78FB158F2BCBA452009C02EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB158E2BCBA452009C02EB /* ContentView.swift */; };
+		78FB158F2BCBA452009C02EB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB158E2BCBA452009C02EB /* MainView.swift */; };
 		78FB15912BCBA455009C02EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78FB15902BCBA455009C02EB /* Assets.xcassets */; };
 		78FB15942BCBA455009C02EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78FB15932BCBA455009C02EB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		780D99A62BCC5562001BCDB2 /* GreetingsLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GreetingsLaunchScreen.storyboard; sourceTree = "<group>"; };
+		780D99A82BCC5939001BCDB2 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		780D99AA2BCC5FFF001BCDB2 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		780D99AC2BCC603E001BCDB2 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		780D99AE2BCC605A001BCDB2 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		780D99B02BCC6075001BCDB2 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		780D99B22BCC609B001BCDB2 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		780D99B62BCC6286001BCDB2 /* LandscapeMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeMainView.swift; sourceTree = SOURCE_ROOT; };
+		780D99B82BCC65C5001BCDB2 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		780D99BA2BCC6968001BCDB2 /* LanguageOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageOptionsView.swift; sourceTree = SOURCE_ROOT; };
 		78FB15892BCBA452009C02EB /* Greetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FB158C2BCBA452009C02EB /* GreetingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsApp.swift; sourceTree = "<group>"; };
-		78FB158E2BCBA452009C02EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		78FB158E2BCBA452009C02EB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		78FB15902BCBA455009C02EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78FB15932BCBA455009C02EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +52,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		780D99B42BCC61DC001BCDB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				780D99BA2BCC6968001BCDB2 /* LanguageOptionsView.swift */,
+				780D99B62BCC6286001BCDB2 /* LandscapeMainView.swift */,
+				78FB158E2BCBA452009C02EB /* MainView.swift */,
+				780D99B82BCC65C5001BCDB2 /* LaunchView.swift */,
+				780D99B02BCC6075001BCDB2 /* BackgroundView.swift */,
+				780D99AE2BCC605A001BCDB2 /* MessagesView.swift */,
+				780D99AC2BCC603E001BCDB2 /* TitleView.swift */,
+				780D99AA2BCC5FFF001BCDB2 /* TextView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		780D99B52BCC61E8001BCDB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				780D99B22BCC609B001BCDB2 /* MessageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		78FB15802BCBA452009C02EB = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +94,13 @@
 		78FB158B2BCBA452009C02EB /* Greetings */ = {
 			isa = PBXGroup;
 			children = (
+				780D99B52BCC61E8001BCDB2 /* Model */,
+				780D99B42BCC61DC001BCDB2 /* Views */,
 				78FB158C2BCBA452009C02EB /* GreetingsApp.swift */,
-				78FB158E2BCBA452009C02EB /* ContentView.swift */,
 				78FB15902BCBA455009C02EB /* Assets.xcassets */,
 				78FB15922BCBA455009C02EB /* Preview Content */,
+				780D99A62BCC5562001BCDB2 /* GreetingsLaunchScreen.storyboard */,
+				780D99A82BCC5939001BCDB2 /* Localizable.xcstrings */,
 			);
 			path = Greetings;
 			sourceTree = "<group>";
@@ -109,6 +155,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 78FB15802BCBA452009C02EB;
 			productRefGroup = 78FB158A2BCBA452009C02EB /* Products */;
@@ -126,6 +173,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				78FB15942BCBA455009C02EB /* Preview Assets.xcassets in Resources */,
+				780D99A72BCC5562001BCDB2 /* GreetingsLaunchScreen.storyboard in Resources */,
+				780D99A92BCC5939001BCDB2 /* Localizable.xcstrings in Resources */,
 				78FB15912BCBA455009C02EB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +186,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78FB158F2BCBA452009C02EB /* ContentView.swift in Sources */,
+				780D99B12BCC6075001BCDB2 /* BackgroundView.swift in Sources */,
+				780D99AF2BCC605A001BCDB2 /* MessagesView.swift in Sources */,
+				780D99B32BCC609B001BCDB2 /* MessageModel.swift in Sources */,
+				780D99BB2BCC6968001BCDB2 /* LanguageOptionsView.swift in Sources */,
+				780D99AB2BCC5FFF001BCDB2 /* TextView.swift in Sources */,
+				78FB158F2BCBA452009C02EB /* MainView.swift in Sources */,
+				780D99B72BCC6286001BCDB2 /* LandscapeMainView.swift in Sources */,
 				78FB158D2BCBA452009C02EB /* GreetingsApp.swift in Sources */,
+				780D99B92BCC65C5001BCDB2 /* LaunchView.swift in Sources */,
+				780D99AD2BCC603E001BCDB2 /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
