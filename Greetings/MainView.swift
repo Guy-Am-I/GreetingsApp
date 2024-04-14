@@ -7,12 +7,6 @@
 
 import SwiftUI
 
-struct DataItemModel: Identifiable {
-    let id = UUID()
-    let text: String
-    let color: Color
-}
-
 /// MainView of the app, launches on statrup
 struct MainView: View {
     var body: some View {
@@ -27,99 +21,6 @@ struct MainView: View {
                 Spacer()
             }
         }
-    }
-}
-
-/// Text View which wraps text in ellipse shape and gives it a
-///  background color which changes on tap
-struct TextView: View {
-    let text: String
-    @State var color: Color
-    
-    let colors: [Color] = [
-        .red, .green, .black, .white, .yellow, .orange]
-    
-    var body: some View {
-        Text(text)
-            .font(.title2)
-            .fontWeight(.semibold)
-            .foregroundStyle(Color.white)
-            .padding()
-            .background(color.opacity(0.8))
-            .clipShape(Capsule())
-            .shadow(color: color.opacity(0.4), radius: 5, x: 10, y: 10)
-            .onTapGesture {
-                let len = colors.count
-                color = colors[Int.random(in: 0..<len)]
-            }
-    }
-}
-
-/// Title View including app name and rotating onTap icon
-struct TitleView: View {
-    
-    @State var isRotated = false
-    
-    var body: some View {
-        HStack {
-            VStack(alignment: .leading, spacing: 0.0) {
-                Text("Greetings")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                Text("Exploring iOS SWIFTUI")
-                    .font(.headline)
-                    .fontWeight(.thin)
-            }.padding()
-            
-            Spacer()
-            
-            Circle()
-                .strokeBorder(AngularGradient(gradient: Gradient(
-                    colors: [.red, .blue,.yellow, .orange, .purple]),
-                                              center: .center,
-                                              angle: .zero),
-                              lineWidth: 12.0)
-                .rotationEffect(isRotated ? .zero : .degrees(360))
-                .frame(maxWidth: 70, maxHeight: 70)
-                .onTapGesture {
-                    withAnimation(Animation.spring) {
-                        isRotated.toggle()
-                    }
-                }
-        }.padding()
-    }
-}
-
-/// Messages View including sample bank of messages with text & color
-struct MessagesView: View {
-    
-    let messages = [
-        DataItemModel(text: String(localized: "Hello There"), color: .green),
-        DataItemModel(text: String(localized: "Welcome to Swift Programming"), color: .gray),
-        DataItemModel(text: String(localized: "Are you ready to"), color: .yellow),
-        DataItemModel(text: String(localized: "Start exploring"), color: .red),
-        DataItemModel(text: String(localized: "Boom!"), color: .purple)
-    ]
-    
-    var body: some View {
-        VStack(alignment: .leading) {
-            ForEach(messages) {
-                TextView(text: $0.text, color: $0.color)
-            }
-        }.padding()
-    }
-}
-
-/// Background View which contains a gradient
-struct BackgroundView: View {
-    var body: some View {
-        LinearGradient(colors: [.blue, Color(red: 139/255,
-                                             green: 80/255,
-                                             blue: 240/255)],
-                       startPoint: .topLeading,
-                       endPoint: .bottomTrailing)
-        .opacity(0.2)
-        .ignoresSafeArea()
     }
 }
 
