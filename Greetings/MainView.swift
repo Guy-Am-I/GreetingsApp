@@ -14,32 +14,17 @@ struct DataItemModel: Identifiable {
 }
 
 struct MainView: View {
-    let messages = [
-        DataItemModel(text: "Hello There", color: .green),
-        DataItemModel(text: "Welcome to Swift Programming", color: .gray),
-        DataItemModel(text: "Are you ready to", color: .yellow),
-        DataItemModel(text: "Start exploring", color: .red),
-        DataItemModel(text: "Boom!", color: .purple)
-    ]
-    
     var body: some View {
-        VStack(alignment: .leading) {
-            VStack(alignment: .leading, spacing: 0.0) {
-                Text("Greetings")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                Text("Exploring iOS SWIFTUI")
-                    .font(.headline)
-                    .fontWeight(.thin)
-            }.padding()
-            Spacer()
-            ForEach(messages) {
-                TextView(text: $0.text, color: $0.color)
+        ZStack {
+            Color.black.opacity(0.4)
+                .ignoresSafeArea()
+            VStack(alignment: .leading) {
+                TitleView()
+                Spacer()
+                MessagesView()
+                Spacer()
+                Spacer()
             }
-            
-            Spacer()
-            Spacer()
-            
         }
     }
 }
@@ -62,4 +47,34 @@ struct TextView: View {
 
 #Preview {
     MainView()
+}
+
+struct TitleView: View {
+    var body: some View {
+        VStack(alignment: .leading, spacing: 0.0) {
+            Text("Greetings")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+            Text("Exploring iOS SWIFTUI")
+                .font(.headline)
+                .fontWeight(.thin)
+        }.padding()
+    }
+}
+
+struct MessagesView: View {
+    
+    let messages = [
+        DataItemModel(text: "Hello There", color: .green),
+        DataItemModel(text: "Welcome to Swift Programming", color: .gray),
+        DataItemModel(text: "Are you ready to", color: .yellow),
+        DataItemModel(text: "Start exploring", color: .red),
+        DataItemModel(text: "Boom!", color: .purple)
+    ]
+    
+    var body: some View {
+        ForEach(messages) {
+            TextView(text: $0.text, color: $0.color)
+        }
+    }
 }
