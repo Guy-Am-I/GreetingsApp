@@ -12,18 +12,34 @@ struct LaunchView: View {
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @Environment(\.verticalSizeClass) var verticalSizeClass
     
+    @Binding var language: String
+    
     var body: some View {
         //Portrait orientation
         if horizontalSizeClass == .compact &&
             verticalSizeClass == .regular {
-            MainView()
+            NavigationStack {
+                MainView()
+                    .toolbar {
+                        ToolbarItem(placement: .topBarTrailing) {
+                            LanguageOptionsView(language: $language)
+                        }
+                    }
+            }
         } else {
             //landscape orientation
-            LandscapeMainView()
+            NavigationStack{
+                LandscapeMainView()
+                    .toolbar {
+                        ToolbarItem(placement: .topBarTrailing) {
+                            LanguageOptionsView(language: $language)
+                        }
+                    }
+            }
         }
     }
 }
 
 #Preview {
-    LaunchView()
+    LaunchView(language: .constant("en"))
 }

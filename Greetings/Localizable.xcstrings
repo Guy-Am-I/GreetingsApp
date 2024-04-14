@@ -33,6 +33,9 @@
         }
       }
     },
+    "English" : {
+
+    },
     "Exploring iOS SWIFTUI" : {
       "localizations" : {
         "en" : {
@@ -84,6 +87,9 @@
         }
       }
     },
+    "Spanish" : {
+
+    },
     "Start exploring" : {
       "localizations" : {
         "en" : {
@@ -99,6 +105,9 @@
           }
         }
       }
+    },
+    "text" : {
+
     },
     "Welcome to Swift Programming" : {
       "localizations" : {
