@@ -7,14 +7,26 @@
 
 import SwiftUI
 
+struct DataItemModel: Identifiable {
+    let id = UUID()
+    let text: String
+    let color: Color
+}
+
 struct MainView: View {
+    let messages = [
+        DataItemModel(text: "Hello There", color: .green),
+        DataItemModel(text: "Welcome to Swift Programming", color: .gray),
+        DataItemModel(text: "Are you ready to", color: .yellow),
+        DataItemModel(text: "Start exploring", color: .red),
+        DataItemModel(text: "Boom!", color: .purple)
+    ]
+    
     var body: some View {
         VStack(alignment: .leading) {
-            TextView(text: "Hello There", color: .green)
-            TextView(text: "Welcome to Swift Programming", color: .gray)
-            TextView(text: "Are you ready to", color: .yellow)
-            TextView(text: "Start exploring", color: .red)
-            TextView(text: "Boom!", color: .purple)
+            ForEach(messages) {
+                TextView(text: $0.text, color: $0.color)
+            }
             
         }
     }
