@@ -52,10 +52,6 @@ struct TextView: View {
     }
 }
 
-#Preview {
-    MainView()
-}
-
 struct TitleView: View {
     
     @State var isRotated = false
@@ -119,4 +115,9 @@ struct BackgroundView: View {
         .opacity(0.2)
         .ignoresSafeArea()
     }
+}
+
+#Preview {
+    MainView()
+        .preferredColorScheme(.dark)
 }

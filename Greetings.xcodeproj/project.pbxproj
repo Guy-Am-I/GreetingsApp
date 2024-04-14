@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		780D99A72BCC5562001BCDB2 /* GreetingsLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780D99A62BCC5562001BCDB2 /* GreetingsLaunchScreen.storyboard */; };
 		78FB158D2BCBA452009C02EB /* GreetingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB158C2BCBA452009C02EB /* GreetingsApp.swift */; };
 		78FB158F2BCBA452009C02EB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB158E2BCBA452009C02EB /* MainView.swift */; };
 		78FB15912BCBA455009C02EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78FB15902BCBA455009C02EB /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		780D99A62BCC5562001BCDB2 /* GreetingsLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GreetingsLaunchScreen.storyboard; sourceTree = "<group>"; };
 		78FB15892BCBA452009C02EB /* Greetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FB158C2BCBA452009C02EB /* GreetingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsApp.swift; sourceTree = "<group>"; };
 		78FB158E2BCBA452009C02EB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 				78FB158E2BCBA452009C02EB /* MainView.swift */,
 				78FB15902BCBA455009C02EB /* Assets.xcassets */,
 				78FB15922BCBA455009C02EB /* Preview Content */,
+				780D99A62BCC5562001BCDB2 /* GreetingsLaunchScreen.storyboard */,
 			);
 			path = Greetings;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78FB15942BCBA455009C02EB /* Preview Assets.xcassets in Resources */,
+				780D99A72BCC5562001BCDB2 /* GreetingsLaunchScreen.storyboard in Resources */,
 				78FB15912BCBA455009C02EB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
