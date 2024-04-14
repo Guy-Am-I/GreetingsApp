@@ -16,8 +16,8 @@ struct DataItemModel: Identifiable {
 struct MainView: View {
     var body: some View {
         ZStack {
-            Color.black.opacity(0.4)
-                .ignoresSafeArea()
+            BackgroundView()
+            
             VStack(alignment: .leading) {
                 TitleView()
                 Spacer()
@@ -76,5 +76,17 @@ struct MessagesView: View {
         ForEach(messages) {
             TextView(text: $0.text, color: $0.color)
         }
+    }
+}
+
+struct BackgroundView: View {
+    var body: some View {
+        LinearGradient(colors: [.blue, Color(red: 139/255,
+                                              green: 80/255,
+                                              blue: 240/255)],
+                       startPoint: .topLeading,
+                       endPoint: .bottomTrailing)
+            .opacity(0.2)
+            .ignoresSafeArea()
     }
 }
