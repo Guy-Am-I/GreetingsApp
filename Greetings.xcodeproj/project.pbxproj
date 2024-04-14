@@ -14,6 +14,7 @@
 		780D99AF2BCC605A001BCDB2 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780D99AE2BCC605A001BCDB2 /* MessagesView.swift */; };
 		780D99B12BCC6075001BCDB2 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780D99B02BCC6075001BCDB2 /* BackgroundView.swift */; };
 		780D99B32BCC609B001BCDB2 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780D99B22BCC609B001BCDB2 /* MessageModel.swift */; };
+		780D99B72BCC6286001BCDB2 /* LandscapeMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780D99B62BCC6286001BCDB2 /* LandscapeMainView.swift */; };
 		78FB158D2BCBA452009C02EB /* GreetingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB158C2BCBA452009C02EB /* GreetingsApp.swift */; };
 		78FB158F2BCBA452009C02EB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB158E2BCBA452009C02EB /* MainView.swift */; };
 		78FB15912BCBA455009C02EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78FB15902BCBA455009C02EB /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		780D99AE2BCC605A001BCDB2 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		780D99B02BCC6075001BCDB2 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		780D99B22BCC609B001BCDB2 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		780D99B62BCC6286001BCDB2 /* LandscapeMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeMainView.swift; sourceTree = SOURCE_ROOT; };
 		78FB15892BCBA452009C02EB /* Greetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FB158C2BCBA452009C02EB /* GreetingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsApp.swift; sourceTree = "<group>"; };
 		78FB158E2BCBA452009C02EB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 		780D99B42BCC61DC001BCDB2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				780D99B62BCC6286001BCDB2 /* LandscapeMainView.swift */,
 				78FB158E2BCBA452009C02EB /* MainView.swift */,
 				780D99B02BCC6075001BCDB2 /* BackgroundView.swift */,
 				780D99AE2BCC605A001BCDB2 /* MessagesView.swift */,
@@ -182,6 +185,7 @@
 				780D99B32BCC609B001BCDB2 /* MessageModel.swift in Sources */,
 				780D99AB2BCC5FFF001BCDB2 /* TextView.swift in Sources */,
 				78FB158F2BCBA452009C02EB /* MainView.swift in Sources */,
+				780D99B72BCC6286001BCDB2 /* LandscapeMainView.swift in Sources */,
 				78FB158D2BCBA452009C02EB /* GreetingsApp.swift in Sources */,
 				780D99AD2BCC603E001BCDB2 /* TitleView.swift in Sources */,
 			);
